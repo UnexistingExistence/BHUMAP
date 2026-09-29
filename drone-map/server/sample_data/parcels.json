@@ -1,0 +1,326 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "dataset": "SVAMITVA Urban Cadastral Survey",
+    "state": "Uttar Pradesh",
+    "district": "Agra",
+    "tehsil": "Agra City",
+    "crs": "EPSG:4326 - WGS 84",
+    "generatedAt": "2026-09-06T14:35:00Z",
+    "modelVersion": "YOLOv11-OBB + SegmentAnything-Cadastre-v2.4",
+    "totalParcels": 10,
+    "encroachmentCount": 2
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "UP-AGR-041-A",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0067, 27.1753],
+          [78.0073, 27.1753],
+          [78.0073, 27.1759],
+          [78.0067, 27.1759],
+          [78.0067, 27.1753]
+        ]]
+      },
+      "properties": {
+        "parcelId": "UP-AGR-041-A",
+        "khataNo": "104/A",
+        "ownerName": "Ramesh Kumar Sharma",
+        "fatherName": "Brij Mohan Sharma",
+        "landUse": "Residential",
+        "areaSqM": 385.4,
+        "areaSqYd": 460.9,
+        "perimeterM": 78.6,
+        "confidence": 0.962,
+        "status": "Verified",
+        "encroachment": false,
+        "encroachmentDetails": null,
+        "taxStatus": "Paid",
+        "assessedValueINR": "₹ 48,20,000",
+        "lastSurveyDate": "2026-09-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP-AGR-041-B",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0074, 27.1753],
+          [78.0081, 27.1753],
+          [78.0081, 27.1759],
+          [78.0074, 27.1759],
+          [78.0074, 27.1753]
+        ]]
+      },
+      "properties": {
+        "parcelId": "UP-AGR-041-B",
+        "khataNo": "104/B",
+        "ownerName": "Verma Electronics (Sunil Verma)",
+        "fatherName": "K. L. Verma",
+        "landUse": "Commercial",
+        "areaSqM": 520.1,
+        "areaSqYd": 622.0,
+        "perimeterM": 91.2,
+        "confidence": 0.948,
+        "status": "Verified",
+        "encroachment": false,
+        "encroachmentDetails": null,
+        "taxStatus": "Paid",
+        "assessedValueINR": "₹ 82,50,000",
+        "lastSurveyDate": "2026-09-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP-AGR-041-C",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0082, 27.1753],
+          [78.0090, 27.1753],
+          [78.0090, 27.1758],
+          [78.0082, 27.1758],
+          [78.0082, 27.1753]
+        ]]
+      },
+      "properties": {
+        "parcelId": "UP-AGR-041-C",
+        "khataNo": "105/1",
+        "ownerName": "Sunita Devi",
+        "fatherName": "W/o Late Rajendra Prasad",
+        "landUse": "Residential",
+        "areaSqM": 290.8,
+        "areaSqYd": 347.8,
+        "perimeterM": 68.4,
+        "confidence": 0.925,
+        "status": "Verified",
+        "encroachment": false,
+        "encroachmentDetails": null,
+        "taxStatus": "Paid",
+        "assessedValueINR": "₹ 36,40,00,000",
+        "lastSurveyDate": "2026-09-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP-AGR-041-D",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0067, 27.1760],
+          [78.0073, 27.1760],
+          [78.0074, 27.1765],
+          [78.0067, 27.1765],
+          [78.0067, 27.1760]
+        ]]
+      },
+      "properties": {
+        "parcelId": "UP-AGR-041-D",
+        "khataNo": "106/Road",
+        "ownerName": "Commercial Shed (Vikas Rajput)",
+        "fatherName": "D. S. Rajput",
+        "landUse": "Commercial",
+        "areaSqM": 215.6,
+        "areaSqYd": 257.8,
+        "perimeterM": 59.8,
+        "confidence": 0.891,
+        "status": "Encroachment Flagged",
+        "encroachment": true,
+        "encroachmentDetails": "2.4m structure extension onto Municipal Right-of-Way (RoW)",
+        "taxStatus": "Pending Audit",
+        "assessedValueINR": "₹ 28,00,000",
+        "lastSurveyDate": "2026-09-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP-AGR-041-E",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0074, 27.1760],
+          [78.0083, 27.1760],
+          [78.0083, 27.1767],
+          [78.0074, 27.1767],
+          [78.0074, 27.1760]
+        ]]
+      },
+      "properties": {
+        "parcelId": "UP-AGR-041-E",
+        "khataNo": "107/Agri",
+        "ownerName": "Kishan Lal & Brothers",
+        "fatherName": "Hira Lal",
+        "landUse": "Agricultural",
+        "areaSqM": 1240.0,
+        "areaSqYd": 1483.0,
+        "perimeterM": 142.0,
+        "confidence": 0.974,
+        "status": "Verified",
+        "encroachment": false,
+        "encroachmentDetails": null,
+        "taxStatus": "Exempt (Agri)",
+        "assessedValueINR": "₹ 1,12,00,000",
+        "lastSurveyDate": "2026-09-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP-AGR-041-F",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0084, 27.1759],
+          [78.0092, 27.1759],
+          [78.0092, 27.1766],
+          [78.0084, 27.1766],
+          [78.0084, 27.1759]
+        ]]
+      },
+      "properties": {
+        "parcelId": "UP-AGR-041-F",
+        "khataNo": "108/3",
+        "ownerName": "Priya Saxena",
+        "fatherName": "Anand Saxena",
+        "landUse": "Residential",
+        "areaSqM": 310.6,
+        "areaSqYd": 371.4,
+        "perimeterM": 70.8,
+        "confidence": 0.951,
+        "status": "Verified",
+        "encroachment": false,
+        "encroachmentDetails": null,
+        "taxStatus": "Paid",
+        "assessedValueINR": "₹ 39,80,000",
+        "lastSurveyDate": "2026-09-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP-AGR-041-G",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0067, 27.1766],
+          [78.0075, 27.1766],
+          [78.0075, 27.1772],
+          [78.0067, 27.1772],
+          [78.0067, 27.1766]
+        ]]
+      },
+      "properties": {
+        "parcelId": "UP-AGR-041-G",
+        "khataNo": "109/Ware",
+        "ownerName": "Apex Logistics Hub",
+        "fatherName": "Director: M. K. Chawla",
+        "landUse": "Commercial",
+        "areaSqM": 840.3,
+        "areaSqYd": 1005.0,
+        "perimeterM": 116.0,
+        "confidence": 0.937,
+        "status": "Verified",
+        "encroachment": false,
+        "encroachmentDetails": null,
+        "taxStatus": "Paid",
+        "assessedValueINR": "₹ 1,35,00,000",
+        "lastSurveyDate": "2026-09-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP-AGR-041-H",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0076, 27.1768],
+          [78.0083, 27.1768],
+          [78.0084, 27.1773],
+          [78.0076, 27.1773],
+          [78.0076, 27.1768]
+        ]]
+      },
+      "properties": {
+        "parcelId": "UP-AGR-041-H",
+        "khataNo": "110/Disp",
+        "ownerName": "Deepak Sharma",
+        "fatherName": "Om Prakash Sharma",
+        "landUse": "Residential",
+        "areaSqM": 220.0,
+        "areaSqYd": 263.1,
+        "perimeterM": 61.4,
+        "confidence": 0.846,
+        "status": "Encroachment Flagged",
+        "encroachment": true,
+        "encroachmentDetails": "Boundary overlap of 1.8m detected with Parcel 107/Agri border wall",
+        "taxStatus": "Disputed",
+        "assessedValueINR": "₹ 26,50,000",
+        "lastSurveyDate": "2026-09-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP-AGR-041-I",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0084, 27.1767],
+          [78.0093, 27.1767],
+          [78.0093, 27.1774],
+          [78.0084, 27.1774],
+          [78.0084, 27.1767]
+        ]]
+      },
+      "properties": {
+        "parcelId": "UP-AGR-041-I",
+        "khataNo": "111/Inst",
+        "ownerName": "Saraswati Vidya Mandir Trust",
+        "fatherName": "President: Dr. R. K. Joshi",
+        "landUse": "Institutional",
+        "areaSqM": 1820.5,
+        "areaSqYd": 2177.3,
+        "perimeterM": 172.0,
+        "confidence": 0.980,
+        "status": "Verified",
+        "encroachment": false,
+        "encroachmentDetails": null,
+        "taxStatus": "Exempt (Education)",
+        "assessedValueINR": "₹ 2,40,00,000",
+        "lastSurveyDate": "2026-09-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP-AGR-041-J",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.0076, 27.1754],
+          [78.0083, 27.1754],
+          [78.0083, 27.1758],
+          [78.0076, 27.1758],
+          [78.0076, 27.1754]
+        ]]
+      },
+      "properties": {
+        "parcelId": "UP-AGR-041-J",
+        "khataNo": "112/5",
+        "ownerName": "Anil Gupta",
+        "fatherName": "S. N. Gupta",
+        "landUse": "Residential",
+        "areaSqM": 340.2,
+        "areaSqYd": 406.8,
+        "perimeterM": 74.0,
+        "confidence": 0.956,
+        "status": "Verified",
+        "encroachment": false,
+        "encroachmentDetails": null,
+        "taxStatus": "Paid",
+        "assessedValueINR": "₹ 42,00,000",
+        "lastSurveyDate": "2026-09-06"
+      }
+    }
+  ]
+}

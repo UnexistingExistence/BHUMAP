@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PARCEL-104A",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.5516,
+              29.35775
+            ],
+            [
+              79.55198,
+              29.35788
+            ],
+            [
+              79.55218,
+              29.3575
+            ],
+            [
+              79.55188,
+              29.35705
+            ],
+            [
+              79.55165,
+              29.3568
+            ],
+            [
+              79.5514,
+              29.35695
+            ],
+            [
+              79.55162,
+              29.35738
+            ],
+            [
+              79.55145,
+              29.35755
+            ],
+            [
+              79.5516,
+              29.35775
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parcelId": "PARCEL-104A",
+        "khasraNo": "104/1A",
+        "title": "Birla Institute of Applied Sciences",
+        "subTitle": "Academic Complex & Main Blocks",
+        "ownerName": "BIAS Trust",
+        "owner": "BIAS Trust",
+        "landUse": "Institutional",
+        "type": "Institutional",
+        "legalAreaM2": 3800,
+        "areaSqM": 2530,
+        "area_sqm": 2530
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PARCEL-104B",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.5507,
+              29.35685
+            ],
+            [
+              79.55135,
+              29.35678
+            ],
+            [
+              79.55128,
+              29.35635
+            ],
+            [
+              79.55062,
+              29.35645
+            ],
+            [
+              79.5507,
+              29.35685
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parcelId": "PARCEL-104B",
+        "khasraNo": "104/1B",
+        "title": "Campus Multipurpose Hall",
+        "subTitle": "Facility Wing",
+        "ownerName": "Estate Wing",
+        "owner": "Estate Wing",
+        "landUse": "Commercial / Facility",
+        "type": "Commercial / Facility",
+        "legalAreaM2": 850,
+        "areaSqM": 1502,
+        "area_sqm": 1502
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PARCEL-104C",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.55295,
+              29.35588
+            ],
+            [
+              79.55355,
+              29.3561
+            ],
+            [
+              79.55375,
+              29.3556
+            ],
+            [
+              79.5531,
+              29.3554
+            ],
+            [
+              79.55295,
+              29.35588
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parcelId": "PARCEL-104C",
+        "khasraNo": "104/2",
+        "title": "Staff Quarters",
+        "subTitle": "Residential Units",
+        "ownerName": "Campus Society",
+        "owner": "Campus Society",
+        "landUse": "Residential",
+        "type": "Residential",
+        "legalAreaM2": 1200,
+        "areaSqM": 1852,
+        "area_sqm": 1852
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PARCEL-104D",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.55222,
+              29.35735
+            ],
+            [
+              79.55325,
+              29.35705
+            ],
+            [
+              79.55288,
+              29.35595
+            ],
+            [
+              79.55198,
+              29.35628
+            ],
+            [
+              79.55222,
+              29.35735
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "parcelId": "PARCEL-104D",
+        "khasraNo": "105/G",
+        "title": "Central Athletic Grounds",
+        "subTitle": "State Land Registry",
+        "ownerName": "Institutional Reserve",
+        "owner": "Institutional Reserve",
+        "landUse": "Recreational",
+        "type": "Recreational",
+        "legalAreaM2": 8100,
+        "areaSqM": 6173,
+        "area_sqm": 6173
+      }
+    }
+  ]
+}
