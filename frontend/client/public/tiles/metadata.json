@@ -1,0 +1,27 @@
+{
+  "dataset": "AeroStitch Local Drone Orthomosaic",
+  "crs": "EPSG:3857 (Web Mercator Tile Scheme)",
+  "center": {
+    "lat": 41.3041816,
+    "lng": -81.7521752
+  },
+  "bounds": [
+    [
+      41.3028464,
+      -81.7543787
+    ],
+    [
+      41.3055168,
+      -81.7499717
+    ]
+  ],
+  "zoom": {
+    "min": 15,
+    "max": 20,
+    "default": 16
+  },
+  "tileUrl": "/tiles/{z}/{x}/{y}.png",
+  "tileUrlAbsolute": "http://localhost:5000/tiles/{z}/{x}/{y}.png",
+  "totalTiles": 184,
+  "generatedAt": "2026-09-09T18:45:00Z"
+}
