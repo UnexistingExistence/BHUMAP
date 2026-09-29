@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "server": "node --experimental-sqlite server/index.js",
-    "seed": "node server/seed.js",
+    "server": "node --experimental-sqlite ../../server/index.js",
+    "seed": "node ../../server/seed.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

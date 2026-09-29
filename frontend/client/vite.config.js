@@ -9,7 +9,6 @@ dotenv.config()
 const BACKEND_PORT = process.env.PORT || 5000
 
 export default defineConfig({
-  root: 'frontend/client',
   plugins: [react(), tailwindcss()],
   server: {
     port: 5173,
@@ -26,7 +25,7 @@ export default defineConfig({
         target: `http://localhost:${BACKEND_PORT}`,
         changeOrigin: true,
         bypass(req) {
-          const filePath = path.join(process.cwd(), 'frontend', 'client', 'public', req.url.split('?')[0]);
+          const filePath = path.join(process.cwd(), 'public', req.url.split('?')[0]);
           if (fs.existsSync(filePath)) {
             return req.url;
           }
