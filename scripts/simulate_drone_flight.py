@@ -50,9 +50,18 @@ def generate_flight_dataset(
     base_img = Image.open(source_img_path).convert("RGB")
     total_w, total_h = base_img.size
 
-    step_x = int(crop_w * (1.0 - side_overlap))
-    step_y = int(crop_h * (1.0 - front_overlap))
-    lat_step, lon_step = 0.00015, 0.00015
+    if total_w < crop_w or total_h < crop_h:
+        scale = max(crop_w / total_w, crop_h / total_h) * 2.0
+        new_w = int(total_w * scale)
+        new_h = int(total_h * scale)
+        base_img = base_img.resize((new_w, new_h), Image.LANCZOS)
+        total_w, total_h = base_img.size
+        print(f"Source upscaled to {total_w}x{total_h} to accommodate {crop_w}x{crop_h} crop windows.")
+
+    step_x = (total_w - crop_w) // 3
+    step_y = (total_h - crop_h) // 9
+    lat_span = 0.00180
+    lon_span = 0.00200
     photo_idx = 1
     x_positions = list(range(0, total_w - crop_w, step_x))
 
@@ -64,8 +73,8 @@ def generate_flight_dataset(
         for y in y_range:
             box = (x, y, x + crop_w, y + crop_h)
             cropped_frame = base_img.crop(box)
-            current_lat = center_lat + ((total_h / 2 - y) / total_h) * lat_step
-            current_lon = center_lon + ((x - total_w / 2) / total_w) * lon_step
+            current_lat = center_lat + ((total_h / 2 - y) / total_h) * lat_span
+            current_lon = center_lon + ((x - total_w / 2) / total_w) * lon_span
             exif_bytes = build_exif(current_lat, current_lon)
             filename = f"DJI_{photo_idx:04d}.JPG"
             cropped_frame.save(
