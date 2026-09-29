@@ -17,5 +17,5 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true
   },
-  "include": ["client/src"]
+  "include": ["frontend/client/src"]
 }
